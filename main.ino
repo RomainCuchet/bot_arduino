@@ -1,6 +1,6 @@
-const int ultrasound_sensor_trigger_pin = 2;
-const int ultrasound_sensor_echo_pin = 4;
-const int buzzer_pin = 7;
+const byte ultrasound_sensor_trigger_pin = 2;
+const byte ultrasound_sensor_echo_pin = 4;
+const byte buzzer_pin = 7;
 long lecture_echo; // long[2^31-1;2^31-1]
 long obstacle_distance;
 bool is_obstacle = false; // true if there is an obstacle
